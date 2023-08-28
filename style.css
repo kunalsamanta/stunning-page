@@ -43,4 +43,8 @@ section{
 }
 .section-continer{
     display: flex;
+    flex-direction: column;
+}
+.row img{
+    object-fit: contain;
 }
