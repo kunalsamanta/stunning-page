@@ -3,10 +3,44 @@ body{
 }
 nav{
     display: flex;
+    justify-content: space-between;
+}
+.top-img{
+    width:20%;
+
+}
+ul li{
+    display: inline;
+    list-style:none;
+   
+}
+li a {
+    text-decoration: none ;
+    color:gray;
+    font-size:18px;
+    margin :5px  36px   47px    9px;;
+    
+}
+li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.top-button{
+    width:95%;
+    float:  right !important;
+    background-color:#FE5D20;
+    border: solid #FE5D20;
+    border-radius: 9999px;
 }
 
-main{
-    max-width: 700px;
-    margin: 100px auto;
-    
+
+section{
+    display: inline-flex;
+}
+.row{
+    display: flex;
+
+}
+.section-continer{
+    display: flex;
 }
