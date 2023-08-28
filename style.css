@@ -48,3 +48,8 @@ section{
 .row img{
     object-fit: contain;
 }
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 48px;
+}
