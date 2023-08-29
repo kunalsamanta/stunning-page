@@ -29,22 +29,26 @@ li a:hover{
 .top-button{
     width:95%;
     float:  right !important;
-    background-color:#FE5D20;
-    border: solid #FE5D20;
+    background-color:#FED7DA;
+    border: solid #FED7DA;
     border-radius: 9999px;
+    color: #5243C0;
 }
 
 
-section{
-    display: inline-flex;
-  
-}
+
 .row{
     display: flex;
-    background-color: gainsboro;
-    padding: 2px;
+    background-color: rgb(240, 240, 240);
+    border: rgb(240, 240, 240);
+    border-radius: 15px;
+    margin: 3px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
     
 
+}
+.row:hover{
+    background-color: white;
 }
 .section-continer{
     display: flex;
@@ -68,10 +72,41 @@ main{
     background-color: #5243C0;
     border: solid #5243C0;
     border-radius: 9999px;
+    color:white;
 }
 h1{
     font-size: 70px;
 }
 .contain-body-p{
     font-size: 20px;
+}
+.btn1{
+    background-color: #FED7DA;
+    border:#FED7DA ;
+}
+.btn2{
+    background-color: #FD6534;
+    border: #FD6534;
+}
+.btn3{
+    background-color: #9ED095;
+    border: #9ED095;
+}
+.btn4{
+    background-color: #FFE4A0;
+    border: #FFE4A0;
+}
+section img{
+    padding: 15px;
+}
+section p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+section button{
+    padding: 15px;
+    border-radius: 50px;
+    width: 1px;
+    
+    
 }
