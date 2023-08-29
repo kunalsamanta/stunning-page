@@ -100,13 +100,15 @@ section img{
     padding: 15px;
 }
 section p{
+    
     padding-left: 25px;
     padding-right: 25px;
+    
 }
 section button{
     padding: 15px;
     border-radius: 50px;
-    width: 1px;
+    width: 0.5px;
     display: flex;
     transform: rotate(90deg);
     
