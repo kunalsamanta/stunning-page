@@ -107,6 +107,9 @@ section button{
     padding: 15px;
     border-radius: 50px;
     width: 1px;
+    display: flex;
+    transform: rotate(90deg);
+    
     
     
 }
